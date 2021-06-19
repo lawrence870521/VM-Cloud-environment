@@ -56,7 +56,7 @@ AWS EC2 tutorial
 ![](https://i.imgur.com/OwCMdu5.png)
  
 4. Key in **chmod 400 *yourkeypairname*.pem**. These command sets premissions so that, user/owner can read but can't write.
-    **Notice:** remember to chanege ***yourkeypairname*.pem** to your own.
+    **Notice:** remember to chanege *yourkeypairname* to your own.
 
 ![](https://i.imgur.com/oenu0Ka.png)
 
