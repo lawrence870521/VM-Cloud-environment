@@ -1,7 +1,56 @@
-# VM-Cloud-environment
+AWS EC2 tutorial 
+===
+- [Create a Free Account](#account)
+- [Create an EC2 instance](#EC2)
+- [Connect to instance](#instance)
 
-### 1. 進入到 AWS 主控台，點選使用 EC2
-### 2. 選擇想要的配置
-### 3. 配置完成後，需要將 private key 儲存下來，因為不論是 window or linux ，透過 SSH 連過去皆需要這個安全認證
-### 4. 之後，就可以 start instance.
-### 5. Window 系統，需要透過 PuTTY 才能 SSH 連過去，並且需要將 key 一併設定好；Linux 系統，則只需要在你放 key 的路徑下去 SSH VM ，就可以連上了
+
+
+### <a name="account"> Create a Free Account </a>
+1. [Sign up for AWS](https://portal.aws.amazon.com/billing/signup?refid=em_127222&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start)
+    ==Notice== In order to test the validity of this card, you need to enter your Credit or Debit card number. AWS will chrage $1 USD for testing and then refund it.
+![](https://i.imgur.com/GVxR1jx.png)
+2. Choose basic support.
+![](https://i.imgur.com/kKN6Ru2.png)
+
+### <a name="EC2"> Create an EC2 instance </a> 
+1. Use the EC2.
+
+![](https://i.imgur.com/qUidEhN.png)
+
+2. Choose ==Ubuntu server 20.04== and press Select.
+
+![](https://i.imgur.com/Hrw4tzA.png)
+
+3. Choose ==t2.micro== and press ==Review and Launch.==
+
+![](https://i.imgur.com/qMtsT7M.png)
+
+4. Check out the configuration and press ==Launch.==
+
+![](https://i.imgur.com/sGsP3sQ.png)
+
+5. Now, you need to choose "Create a new key pair" and give a key pair name. Furthemore, do not forget to ==download key pair==.
+
+![](https://i.imgur.com/hKixF1G.png)
+
+6. Finally, your instance was built successfully. Also, you can rename it.
+
+![](https://i.imgur.com/LBReUUb.png)
+
+
+### <a name="instance"> Connect to instance </a>
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+
