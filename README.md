@@ -40,18 +40,35 @@ AWS EC2 tutorial
 
 
 ### <a name="instance"> Connect to instance </a>
-1. Open the terminal and change directory to where you store key pair. (For me, I store in **Downloads** folder.)
-
-![](https://i.imgur.com/OwCMdu5.png)
-
-2. On your EC2 Mangement console, choose your instance and press **Connect**. 
+1. On your EC2 Mangement console, choose your instance and press **Connect**. 
 
 ![](https://i.imgur.com/SSurzZT.jpg)
 
 
-3. We choose **SSH client** to connect our instances.
+2. We choose **SSH client** to connect our instances. You can see two commands which I circle it. We will use them next three steps.
 
-![](https://i.imgur.com/3WncdmK.png)
+![](https://i.imgur.com/CzAgDDQ.jpg)
+
+
+
+3. First, open the terminal and change directory to where you store key pair. (For me, I store in **Downloads** folder.) 
+
+![](https://i.imgur.com/OwCMdu5.png)
+ 
+4. Key in **chmod 400 *yourkeypairname*.pem**. These command sets premissions so that, user/owner can read but can't write.
+    **Notice:** remember to chanege ***yourkeypairname*.pem** to your own.
+
+![](https://i.imgur.com/oenu0Ka.png)
+
+    
+5. Finally, we key in ssh command to connect our VM. You can copy the whole command on Step2 to your terminal and execute it. 
+
+![](https://i.imgur.com/Rl9VZPr.png)
+
+6. Now, we can remote our VM.
+
+
+
 
 
 
