@@ -8,7 +8,7 @@ AWS EC2 tutorial
 
 ### <a name="account"> Create a Free Account </a>
 1. [Sign up for AWS](https://portal.aws.amazon.com/billing/signup?refid=em_127222&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start)
-    ==Notice== In order to test the validity of this card, you need to enter your Credit or Debit card number. AWS will chrage $1 USD for testing and then refund it.
+    **Notice:** In order to test the validity of this card, you need to enter your Credit or Debit card number. AWS will chrage $1 USD for testing and then refund it.
 ![](https://i.imgur.com/GVxR1jx.png)
 2. Choose basic support.
 ![](https://i.imgur.com/kKN6Ru2.png)
@@ -18,19 +18,19 @@ AWS EC2 tutorial
 
 ![](https://i.imgur.com/qUidEhN.png)
 
-2. Choose ==Ubuntu server 20.04== and press Select.
+2. Choose **Ubuntu server 20.04** and press Select.
 
 ![](https://i.imgur.com/Hrw4tzA.png)
 
-3. Choose ==t2.micro== and press ==Review and Launch.==
+3. Choose **t2.micro** and press **Review and Launch.**
 
 ![](https://i.imgur.com/qMtsT7M.png)
 
-4. Check out the configuration and press ==Launch.==
+4. Check out the configuration and press **Launch.**
 
 ![](https://i.imgur.com/sGsP3sQ.png)
 
-5. Now, you need to choose "Create a new key pair" and give a key pair name. Furthemore, do not forget to ==download key pair==.
+5. Now, you need to choose "Create a new key pair" and give a key pair name. Furthemore, do not forget to **download key pair**.
 
 ![](https://i.imgur.com/hKixF1G.png)
 
@@ -40,16 +40,16 @@ AWS EC2 tutorial
 
 
 ### <a name="instance"> Connect to instance </a>
-1. Open the terminal and change directory to where you store key pair. (For me, I store in ==Downloads== folder.)
+1. Open the terminal and change directory to where you store key pair. (For me, I store in **Downloads** folder.)
 
 ![](https://i.imgur.com/OwCMdu5.png)
 
-2. On your EC2 Mangement console, choose your instance and press ==Connect==. 
+2. On your EC2 Mangement console, choose your instance and press **Connect**. 
 
 ![](https://i.imgur.com/SSurzZT.jpg)
 
 
-3. We choose ==SSH client== to connect our instances.
+3. We choose **SSH client** to connect our instances.
 
 ![](https://i.imgur.com/3WncdmK.png)
 
