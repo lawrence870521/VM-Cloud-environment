@@ -40,8 +40,18 @@ AWS EC2 tutorial
 
 
 ### <a name="instance"> Connect to instance </a>
+1. Open the terminal and change directory to where you store key pair. (For me, I store in ==Downloads== folder.)
+
+![](https://i.imgur.com/OwCMdu5.png)
+
+2. On your EC2 Mangement console, choose your instance and press ==Connect==. 
+
+![](https://i.imgur.com/SSurzZT.jpg)
 
 
+3. We choose ==SSH client== to connect our instances.
+
+![](https://i.imgur.com/3WncdmK.png)
 
 
 
